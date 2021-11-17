@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.spin{
+  animation: App-logo-spin infinite 2s linear;
+}
+
+@keyframes element-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.margin-and-center{
+  margin: 30px auto;
+}
+
+.info {
+  width: 50%;
+}
+
+
+.footer {
+  font-size: small;
+}
